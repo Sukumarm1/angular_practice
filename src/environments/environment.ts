@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiPrefix: 'https://localhost:8080',
+  apiPractice: '/angular-planning',
+  baseUrl: 'localhost:8080',
 };
 
 /*
